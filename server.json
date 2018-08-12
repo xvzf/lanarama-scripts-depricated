@@ -1,0 +1,21 @@
+{
+    "ebot": {
+        "ip": "192.168.10.10",
+        "user": "root",
+        "password": "homosucker"
+    },
+    "dockerhost0": {
+        "ip": "192.168.10.11",
+        "_iprange": "20-32",
+        "csgorange": "20-30",
+        "_user": "lanarama",
+        "user": "xvzf",
+        "passsword": "homosucker"
+    },
+    "dockerhost1": {
+        "ip": "192.168.10.12",
+        "iprange": "20-22",
+        "user": "lanarama",
+        "passsword": "homosucker"
+    }
+}
