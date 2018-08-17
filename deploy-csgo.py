@@ -13,7 +13,8 @@ def deploy_cmd(rcon_password, ip, cpu_offset, cpuset):
            "--network=\"servernetwork\" " + \
            f"--cpuset-cpus=\"{','.join([str(i + cpu_offset) for i in range(cpuset)])}\" " + \
            f"--ip=\"{ip}\" " + \
-           "-d lanarama/csgo-128tick-server"
+           "--restart unless-stopped " + \
+           "-d 192.168.10.13:5000/lanarama/csgo-128tick-server"
 
 @click.command()
 @click.option("--servername",
