@@ -14,8 +14,15 @@
     },
     "dockerhost1": {
         "ip": "192.168.10.12",
-        "iprange": "20-22",
-        "user": "lanarama",
+        "iprange": "40-52",
+        "_user": "lanarama",
+        "user": "xvzf",
+        "passsword": "homosucker"
+    },
+    "dockerhost2": {
+        "ip": "192.168.10.13",
+        "_user": "lanarama",
+        "user": "xvzf",
         "passsword": "homosucker"
     }
 }
